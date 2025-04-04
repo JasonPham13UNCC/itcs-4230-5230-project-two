@@ -8,4 +8,4 @@ spawning = [0, 0, 0, 0];
 pre = [0, 0, 0, 0];
 
 pre[start] = 2;
-alarm[0] = spawn_speed
+alarm[0] = spawn_speed + random_set_seed(randomise())
