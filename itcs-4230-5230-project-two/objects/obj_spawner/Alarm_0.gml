@@ -40,7 +40,7 @@ if(forth = 2) {
 // spawn here 
 for(var i = 0; i < 4; i++) {
 	if(spawning[i] = 1) {
-		instance_create_layer(i*50 + x, y, "Instances", obj_car)
+		instance_create_layer(i*100 + x, y, "Instances", obj_blue_car)
 	}
 	
 }
