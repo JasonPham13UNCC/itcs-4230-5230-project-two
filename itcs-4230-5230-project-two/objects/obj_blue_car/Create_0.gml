@@ -1,4 +1,3 @@
-image_yscale = -1;
 
-image_xscale *= 2.5;
-image_yscale *= 2.5;
+image_xscale *= 5;
+image_yscale *= 5;
