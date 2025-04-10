@@ -1,3 +1,3 @@
-if(obj_car.y > 750) {
+if(window_get_height() < y - 100) {
     instance_destroy();
 }

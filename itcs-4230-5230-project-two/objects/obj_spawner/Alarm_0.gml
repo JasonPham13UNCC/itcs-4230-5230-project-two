@@ -47,7 +47,7 @@ else if(forth = 0) {
 // spawn here 
 for(var i = 0; i < 5; i++) {
 	if(spawning[i] = 2) {
-		instance_create_layer(i*100 + x, y, "Instances", obj_blue_car)
+		instance_create_layer(i*200 + x, y+ irandom_range(-120,120), "Instances", obj_blue_car)
 	}
 	
 }
