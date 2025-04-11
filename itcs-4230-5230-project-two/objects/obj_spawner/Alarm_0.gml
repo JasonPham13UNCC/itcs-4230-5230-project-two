@@ -11,11 +11,11 @@ var fifth = pre[4];
 
 
 // check the prevous path and start logic to spawn
-spawning[0] = irandom_range(1,2)
-spawning[1] = irandom_range(1,2)
-spawning[2] = irandom_range(1,2)
-spawning[3] = irandom_range(1,2)
-spawning[4] = irandom_range(1,2)
+spawning[0] = irandom_range(1,3 + global.moreCar)
+spawning[1] = irandom_range(1,3 + global.moreCar)
+spawning[2] = irandom_range(1,3 + global.moreCar)
+spawning[3] = irandom_range(1,3 + global.moreCar)
+spawning[4] = irandom_range(1,3 + global.moreCar)
 
 
 if(first = 0) {
@@ -40,16 +40,15 @@ else if(forth = 0) {
 }
 else if(forth = 0) {
 	var movement = irandom_range(3,4)
-	spawning[3] = 1
+	spawning[4] = 1
 	spawning[movement] = 0
 }
 
 // spawn here 
 for(var i = 0; i < 5; i++) {
-	if(spawning[i] = 2) {
+	if(spawning[i] >= 2) {
 		instance_create_layer(i*200 + x, y+ irandom_range(-120,120), "Instances", obj_blue_car)
 	}
-	
 }
 
 
