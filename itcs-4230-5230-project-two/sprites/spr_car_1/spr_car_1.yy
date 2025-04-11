@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_car",
+  "%Name":"spr_car_1",
   "bboxMode":0,
   "bbox_bottom":53,
   "bbox_left":15,
   "bbox_right":49,
-  "bbox_top":14,
+  "bbox_top":10,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"3c20ec70-47e7-431b-bef3-f7ae5cd64915","blendMode":0,"displayName":"default","isLocked":false,"name":"3c20ec70-47e7-431b-bef3-f7ae5cd64915","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_car",
+  "name":"spr_car_1",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d00763c2-528f-4e4e-9ce0-650058837c6f","path":"sprites/spr_car/spr_car.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d00763c2-528f-4e4e-9ce0-650058837c6f","path":"sprites/spr_car_1/spr_car_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"97525cd5-44db-4814-8536-460a29d549f7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
