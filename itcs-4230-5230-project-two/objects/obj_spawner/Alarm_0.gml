@@ -18,6 +18,7 @@ spawning[3] = irandom_range(1,3 + global.moreCar)
 spawning[4] = irandom_range(1,3 + global.moreCar)
 
 
+
 if(first = 0) {
 	var movement = irandom_range(0,1)
 	spawning[0] = 1
@@ -38,7 +39,7 @@ else if(forth = 0) {
 	spawning[3] = 1
 	spawning[movement] = 0
 }
-else if(forth = 0) {
+else if(fifth = 0) {
 	var movement = irandom_range(3,4)
 	spawning[4] = 1
 	spawning[movement] = 0
