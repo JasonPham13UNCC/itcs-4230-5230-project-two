@@ -17,7 +17,9 @@ spawning[2] = irandom_range(1,3 + global.moreCar)
 spawning[3] = irandom_range(1,3 + global.moreCar)
 spawning[4] = irandom_range(1,3 + global.moreCar)
 
-
+for(var i=0; i < 5; i++) {
+	//checks for number
+}
 
 if(first = 0) {
 	var movement = irandom_range(0,1)

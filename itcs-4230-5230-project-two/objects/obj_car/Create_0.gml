@@ -5,3 +5,6 @@ image_yscale *= 5;
 hit = false 
 
 current_bumper = spr_car_good_bumper;
+
+
+hit = 2
