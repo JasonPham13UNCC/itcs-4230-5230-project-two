@@ -56,6 +56,7 @@
     {"id":{"name":"rm_menu_screen","path":"rooms/rm_menu_screen/rm_menu_screen.yy",},},
     {"id":{"name":"rm_tutorial_screen","path":"rooms/rm_tutorial_screen/rm_tutorial_screen.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"shd_police","path":"shaders/shd_police/shd_police.yy",},},
     {"id":{"name":"spr_bazooka","path":"sprites/spr_bazooka/spr_bazooka.yy",},},
     {"id":{"name":"spr_bg_white","path":"sprites/spr_bg_white/spr_bg_white.yy",},},
     {"id":{"name":"spr_blue_car","path":"sprites/spr_blue_car/spr_blue_car.yy",},},
