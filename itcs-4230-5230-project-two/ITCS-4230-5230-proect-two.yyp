@@ -53,6 +53,7 @@
     {"id":{"name":"obj_player_car","path":"objects/obj_player_car/obj_player_car.yy",},},
     {"id":{"name":"obj_police","path":"objects/obj_police/obj_police.yy",},},
     {"id":{"name":"obj_powerup_spawner","path":"objects/obj_powerup_spawner/obj_powerup_spawner.yy",},},
+    {"id":{"name":"obj_rocket","path":"objects/obj_rocket/obj_rocket.yy",},},
     {"id":{"name":"obj_score_manager","path":"objects/obj_score_manager/obj_score_manager.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"rm_credits_screen","path":"rooms/rm_credits_screen/rm_credits_screen.yy",},},
