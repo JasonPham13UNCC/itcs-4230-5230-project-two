@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder_gun",
-    "path":"sprites/spr_placeholder_gun/spr_placeholder_gun.yy",
+    "name":"spr_bazooka",
+    "path":"sprites/spr_bazooka/spr_bazooka.yy",
   },
   "spriteMaskId":null,
   "visible":true,
