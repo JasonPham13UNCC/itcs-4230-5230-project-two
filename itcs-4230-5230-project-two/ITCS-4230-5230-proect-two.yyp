@@ -51,6 +51,8 @@
     {"id":{"name":"obj_gas","path":"objects/obj_gas/obj_gas.yy",},},
     {"id":{"name":"obj_gun","path":"objects/obj_gun/obj_gun.yy",},},
     {"id":{"name":"obj_img_sprite","path":"objects/obj_img_sprite/obj_img_sprite.yy",},},
+    {"id":{"name":"obj_move_left_car","path":"objects/obj_move_left_car/obj_move_left_car.yy",},},
+    {"id":{"name":"obj_move_right_car","path":"objects/obj_move_right_car/obj_move_right_car.yy",},},
     {"id":{"name":"obj_player_car","path":"objects/obj_player_car/obj_player_car.yy",},},
     {"id":{"name":"obj_police","path":"objects/obj_police/obj_police.yy",},},
     {"id":{"name":"obj_pothole","path":"objects/obj_pothole/obj_pothole.yy",},},
