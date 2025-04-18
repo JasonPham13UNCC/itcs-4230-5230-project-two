@@ -11,14 +11,25 @@ var fifth = pre[4];
 
 
 // check the prevous path and start logic to spawn
-spawning[0] = irandom_range(1,3 + global.moreCar)
-spawning[1] = irandom_range(1,3 + global.moreCar)
-spawning[2] = irandom_range(1,3 + global.moreCar)
-spawning[3] = irandom_range(1,3 + global.moreCar)
-spawning[4] = irandom_range(1,3 + global.moreCar)
+spawning[0] = irandom_range(1,5 + global.moreCar)
+spawning[1] = irandom_range(1,5 + global.moreCar)
+spawning[2] = irandom_range(1,5 + global.moreCar)
+spawning[3] = irandom_range(1,5 + global.moreCar)
+spawning[4] = irandom_range(1,5 + global.moreCar)
 
 for(var i=0; i < 5; i++) {
-	//checks for number
+	// spawn car to move left
+	if(spawning[i] == 5 and i != 0) {
+		spawning[i - 1]	= 0	
+	} else if (spawning[i] == 5) {
+		spawning[i] = 6
+	}
+	// spawn car to move right
+	if(spawning[i] == 4 and i != 4) {
+		spawning[i + 1]	= 0	
+	} else if (spawning[i] == 4) {
+		spawning[i] = 6
+	}
 }
 
 if(first = 0) {
@@ -49,8 +60,16 @@ else if(fifth = 0) {
 
 // spawn here 
 for(var i = 0; i < 5; i++) {
-	if(spawning[i] >= 2) {
+	if(spawning[i] > 5) {
 		instance_create_layer(i*200 + x, y+ irandom_range(-120,120), "Instances", obj_blue_car)
+	}
+	// spawn car to move left
+	if(spawning[i] == 5) {
+		instance_create_layer(i*200 + x, y+ irandom_range(-120,120), "Instances", obj_move_left_car)
+	}
+	// spawn car to move right
+	if(spawning[i] == 4) {
+		instance_create_layer(i*200 + x, y+ irandom_range(-120,120), "Instances", obj_move_right_car)
 	}
 }
 

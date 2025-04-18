@@ -1,19 +1,23 @@
 {
   "$GMObject":"",
-  "%Name":"obj_powerup_spawner",
+  "%Name":"obj_move_left_car",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_move_right_car","path":"objects/obj_move_right_car/obj_move_right_car.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_powerup_spawner",
+  "name":"obj_move_left_car",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"foes",
+    "path":"folders/Objects/foes.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_blue_car",
+    "path":"objects/obj_blue_car/obj_blue_car.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,13 +31,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"powerup","filters":[],"listItems":[],"multiselect":false,"name":"powerup","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_gun","path":"objects/obj_gun/obj_gun.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_gun","varType":5,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_yellow_car",
+    "path":"sprites/spr_yellow_car/spr_yellow_car.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
