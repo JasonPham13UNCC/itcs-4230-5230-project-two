@@ -1,14 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pothole",
+  "%Name":"obj_water",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player_car","path":"objects/obj_player_car/obj_player_car.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player_car","path":"objects/obj_player_car/obj_player_car.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pothole",
+  "name":"obj_water",
   "overriddenProperties":[],
   "parent":{
     "name":"hazards",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pothole",
-    "path":"sprites/spr_pothole/spr_pothole.yy",
+    "name":"spr_puddle",
+    "path":"sprites/spr_puddle/spr_puddle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
