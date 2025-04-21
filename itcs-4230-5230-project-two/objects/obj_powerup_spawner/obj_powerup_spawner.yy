@@ -28,7 +28,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"powerup","filters":[],"listItems":[],"multiselect":false,"name":"powerup","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_gas","path":"objects/obj_gas/obj_gas.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_gas","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"powerup","filters":[],"listItems":[],"multiselect":false,"name":"powerup","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_gun","path":"objects/obj_gun/obj_gun.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_gun","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

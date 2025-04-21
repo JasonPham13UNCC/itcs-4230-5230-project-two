@@ -18,6 +18,7 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"foes","folderPath":"folders/Objects/foes.yy","name":"foes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"game_manager","folderPath":"folders/Objects/game_manager.yy","name":"game_manager","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"hazards","folderPath":"folders/Objects/hazards.yy","name":"hazards","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"parent_group","folderPath":"folders/Objects/parent_group.yy","name":"parent_group","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"player things","folderPath":"folders/Objects/player things.yy","name":"player things","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"powerups","folderPath":"folders/Objects/powerups.yy","name":"powerups","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -50,12 +51,16 @@
     {"id":{"name":"obj_gas","path":"objects/obj_gas/obj_gas.yy",},},
     {"id":{"name":"obj_gun","path":"objects/obj_gun/obj_gun.yy",},},
     {"id":{"name":"obj_img_sprite","path":"objects/obj_img_sprite/obj_img_sprite.yy",},},
+    {"id":{"name":"obj_move_left_car","path":"objects/obj_move_left_car/obj_move_left_car.yy",},},
+    {"id":{"name":"obj_move_right_car","path":"objects/obj_move_right_car/obj_move_right_car.yy",},},
     {"id":{"name":"obj_player_car","path":"objects/obj_player_car/obj_player_car.yy",},},
     {"id":{"name":"obj_police","path":"objects/obj_police/obj_police.yy",},},
+    {"id":{"name":"obj_pothole","path":"objects/obj_pothole/obj_pothole.yy",},},
     {"id":{"name":"obj_powerup_spawner","path":"objects/obj_powerup_spawner/obj_powerup_spawner.yy",},},
-    {"id":{"name":"obj_rocket","path":"objects/obj_rocket/obj_rocket.yy",},},
     {"id":{"name":"obj_score_manager","path":"objects/obj_score_manager/obj_score_manager.yy",},},
+    {"id":{"name":"obj_spawner_hazards","path":"objects/obj_spawner_hazards/obj_spawner_hazards.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
+    {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},},
     {"id":{"name":"rm_credits_screen","path":"rooms/rm_credits_screen/rm_credits_screen.yy",},},
     {"id":{"name":"rm_game_screen","path":"rooms/rm_game_screen/rm_game_screen.yy",},},
     {"id":{"name":"rm_instructions_screen","path":"rooms/rm_instructions_screen/rm_instructions_screen.yy",},},
@@ -64,7 +69,10 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"chech_for_player","path":"scripts/chech_for_player/chech_for_player.yy",},},
     {"id":{"name":"shd_police","path":"shaders/shd_police/shd_police.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+=======
+>>>>>>> 771f14476f0fe3563fd5ef89126de20ca09605f4
     {"id":{"name":"spr_bazooka_bullet","path":"sprites/spr_bazooka_bullet/spr_bazooka_bullet.yy",},},
     {"id":{"name":"spr_bazooka","path":"sprites/spr_bazooka/spr_bazooka.yy",},},
     {"id":{"name":"spr_bg_white","path":"sprites/spr_bg_white/spr_bg_white.yy",},},
@@ -95,10 +103,13 @@
     {"id":{"name":"spr_sand","path":"sprites/spr_sand/spr_sand.yy",},},
     {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},},
     {"id":{"name":"spr_yellow_car","path":"sprites/spr_yellow_car/spr_yellow_car.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},},
     {"id":{"name":"Sprite31","path":"sprites/Sprite31/Sprite31.yy",},},
     {"id":{"name":"Sprite33","path":"sprites/Sprite33/Sprite33.yy",},},
     {"id":{"name":"ts_game_background","path":"tilesets/ts_game_background/ts_game_background.yy",},},
+=======
+>>>>>>> 771f14476f0fe3563fd5ef89126de20ca09605f4
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
