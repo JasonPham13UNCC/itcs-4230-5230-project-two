@@ -93,6 +93,8 @@
     {"id":{"name":"spr_sand","path":"sprites/spr_sand/spr_sand.yy",},},
     {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},},
     {"id":{"name":"spr_yellow_car","path":"sprites/spr_yellow_car/spr_yellow_car.yy",},},
+    {"id":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},},
+    {"id":{"name":"Sprite31","path":"sprites/Sprite31/Sprite31.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
