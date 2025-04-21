@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gun",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_pothole",
+  "eventList":[],
   "managed":true,
-  "name":"obj_gun",
+  "name":"obj_pothole",
   "overriddenProperties":[],
   "parent":{
-    "name":"powerups",
-    "path":"folders/Objects/powerups.yy",
+    "name":"hazards",
+    "path":"folders/Objects/hazards.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder_gun",
-    "path":"sprites/spr_placeholder_gun/spr_placeholder_gun.yy",
+    "name":"spr_pothole",
+    "path":"sprites/spr_pothole/spr_pothole.yy",
   },
   "spriteMaskId":null,
   "visible":true,
