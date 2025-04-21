@@ -1,13 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gun",
+  "%Name":"obj_rocket",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_blue_car","path":"objects/obj_blue_car/obj_blue_car.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player_car","path":"objects/obj_player_car/obj_player_car.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gun",
+  "name":"obj_rocket",
   "overriddenProperties":[],
   "parent":{
     "name":"powerups",
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bazooka",
-    "path":"sprites/spr_bazooka/spr_bazooka.yy",
+    "name":"Sprite31",
+    "path":"sprites/Sprite31/Sprite31.yy",
   },
   "spriteMaskId":null,
   "visible":true,
