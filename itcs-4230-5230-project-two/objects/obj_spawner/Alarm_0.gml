@@ -19,15 +19,15 @@ spawning[4] = irandom_range(1,5 + global.moreCar)
 
 for(var i=0; i < 5; i++) {
 	// spawn car to move left
-	if(spawning[i] == 5 and i != 0) {
+	if(i != 0 and (spawning[i] == 8 or spawning[i] == 9)) {
 		spawning[i - 1]	= 0	
-	} else if (spawning[i] == 5) {
+	} else if (spawning[i] == 8 or spawning[i] == 9) {
 		spawning[i] = 6
 	}
 	// spawn car to move right
-	if(spawning[i] == 4 and i != 4) {
+	if(i != 4 and (spawning[i] == 7 or spawning[i] == 10)) {
 		spawning[i + 1]	= 0	
-	} else if (spawning[i] == 4) {
+	} else if (spawning[i] == 7 or spawning[i] == 10) {
 		spawning[i] = 6
 	}
 }
@@ -60,16 +60,17 @@ else if(fifth = 0) {
 
 // spawn here 
 for(var i = 0; i < 5; i++) {
-	if(spawning[i] > 5) {
-		instance_create_layer(i*200 + x, y+ irandom_range(-120,120), "Instances", obj_blue_car)
-	}
+	
 	// spawn car to move left
-	if(spawning[i] == 5) {
-		instance_create_layer(i*200 + x, y+ irandom_range(-120,120), "Instances", obj_move_left_car)
+	if(spawning[i] == 8 or spawning[i] == 9) {
+		instance_create_layer(i*225 + x, y+ irandom_range(-120,120), "Instances", obj_move_left_car)
 	}
 	// spawn car to move right
-	if(spawning[i] == 4) {
-		instance_create_layer(i*200 + x, y+ irandom_range(-120,120), "Instances", obj_move_right_car)
+	else if(spawning[i] == 7 or spawning[i] == 10) {
+		instance_create_layer(i*225 + x, y+ irandom_range(-120,120), "Instances", obj_move_right_car)
+	} 
+	else if(spawning[i] > 3) {
+		instance_create_layer(i*225 + x, y+ irandom_range(-120,120), "Instances", obj_blue_car)
 	}
 }
 
